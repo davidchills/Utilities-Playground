@@ -69,6 +69,6 @@ $myHeap = heapify('min', [1,9,0,2,8,3,7,4,6,5]);
 
 
 while ($myHeap->valid()) { 
-	print $myHeap->extract()."\n";
+	print $myHeap->key()." -> ".$myHeap->extract()."\n";
 }
 ?>
